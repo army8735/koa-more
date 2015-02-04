@@ -1,2 +1,1 @@
-# koa-more
-koa middleware for compiling more-css
+# koa middleware for compiling more-css
