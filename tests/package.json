@@ -1,0 +1,7 @@
+{
+  "spm": {
+    "moreOpts": {
+      "configFile": "./config.css"
+    }
+  }
+}

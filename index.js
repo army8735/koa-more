@@ -16,7 +16,7 @@ module.exports = function(dir, option) {
     var pkgJson = fs.readFileSync(pkg, { encoding: 'utf-8' });
     pkgJson = JSON.parse(pkgJson);
 
-    var isCss = /\.css($|\?)/.test(this.url);
+    var isCss = /\.css$/.test(this.url);
     if(isCss && pkgJson.spm && pkgJson.spm.moreOpts) {
       var content = this.body;
       if(!content) {
